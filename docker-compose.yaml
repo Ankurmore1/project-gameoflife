@@ -1,7 +1,7 @@
 version '3'
 services:
 	tomcat:
-		image: 'tom:9'
+		image: 'tomcat:9'
 		ports:
 			- 8080:8080
 		volumes: 
